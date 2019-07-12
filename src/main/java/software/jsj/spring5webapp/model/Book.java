@@ -78,6 +78,14 @@ public class Book {
   public void setPublisher(String publisher) {
     this.publisher = publisher;
   }
+  
+  public Set<Author> getAuthors() {
+    return authors;
+  }
+
+  public void setAuthors(Set<Author> authors) {
+    this.authors = authors;
+  }
 
   @Override
   public int hashCode() {
